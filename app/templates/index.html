@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>To-Do Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="titleContainer">
+            <p class="title">youtube2mp3</p>
+            <p class="subtitle">download videos or playlists from YouTube</p>
+        </div>
+
+        <form class="inputContainer" method="post" action="">
+            <div class="input-container">
+                <input type="text" id="fURL" name="fURL" placeholder="URL" required/>
+            </div>
+            
+            <div class="colContainer">
+                <div class="radioWrapper">
+                    <div>
+                        <input id="fVideo" type="radio" name="type" value="v" required/>
+                        <label for="fVideo">Video</label>
+                    </div>
+
+                    <div>
+                        <label for="fPlaylist">Playlist</label>
+                        <input id="fPlaylist" type="radio" name="type" value="p" required/>
+                    </div>
+                </div>
+
+                <div class="radioWrapper">
+                    <div>
+                        <input id="fMP3" type="radio" name="extension" value="mp3" required/>
+                        <label for="fMP3">MP3</label>
+                    </div>
+
+                    <div>
+                        <label for="fMP4">MP4</label>
+                        <input id="fMP4" type="radio" name="extension" value="mp4" required/>
+                    </div>
+                </div>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
