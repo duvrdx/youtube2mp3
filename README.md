@@ -1,9 +1,7 @@
 # **youtube2mp3 (or youtube2mp4?)**
 *Download videos or playlists from YouTube*
 
-<video width="320" height="240" controls>
-  <source src="app/static/Screencast%20from%2001-24-2023%2009%3A15%3A17%20PM.webm" type="video/webm">
-</video>
+![](app/static/Screencast%20from%2001-24-2023%2009_15_17%20PM.gif)
 
 
 ____________________________________________________
